@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+Route::resource('makers','MakerController@index',['except'=>['create','edit']]);
+Route::resource('vehicles','VehicleController@index',['only'=>['create','edit']]);
+Route::resource('makers.vehicles','MakerVehiclesController', ['except' => ['show','edit','create']]);
