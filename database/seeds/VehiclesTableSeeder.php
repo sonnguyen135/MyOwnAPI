@@ -13,7 +13,7 @@ class VehiclesTableSeeder extends Seeder
     public function run()
     {
         $faker = Faker\Factory::create();
-        for ($i = 0;$i < 6;$i++){
+        for ($i = 0;$i < 30;$i++){
 	    	Vehicle::create([
 	    		
 	    		'color' => $faker->safeColorName(),

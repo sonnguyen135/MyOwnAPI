@@ -28,6 +28,6 @@ class MakersTable extends Migration
      */
     public function down()
     {
-        //
+       Schema::dropIfExists('makers');
     }
 }
