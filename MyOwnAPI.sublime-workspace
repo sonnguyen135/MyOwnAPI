@@ -16,14 +16,6 @@
 			}
 		},
 		{
-			"file": "database/migrations/2016_09_04_083734_vehicles_table.php",
-			"settings":
-			{
-				"buffer_size": 868,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "database/seeds/DatabaseSeeder.php",
 			"settings":
 			{
@@ -43,7 +35,7 @@
 			"file": "database/seeds/VehiclesTableSeeder.php",
 			"settings":
 			{
-				"buffer_size": 562,
+				"buffer_size": 563,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +43,23 @@
 			"file": "routes/api.php",
 			"settings":
 			{
-				"buffer_size": 793,
+				"buffer_size": 789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/VehicleController.php",
+			"settings":
+			{
+				"buffer_size": 1622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2016_09_04_082748_makers_table.php",
+			"settings":
+			{
+				"buffer_size": 656,
 				"line_ending": "Unix"
 			}
 		},
@@ -60,6 +68,14 @@
 			"settings":
 			{
 				"buffer_size": 1540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/MakerController.php",
+			"settings":
+			{
+				"buffer_size": 1811,
 				"line_ending": "Unix"
 			}
 		},
@@ -145,6 +161,7 @@
 	],
 	"file_history":
 	[
+		"/F/xampp/htdocs/laravel53/MyOwnAPI/database/migrations/2016_09_04_083734_vehicles_table.php",
 		"/F/xampp/htdocs/laravel53/MyOwnAPI/app/Http/Controllers/MakerController.php",
 		"/F/xampp/htdocs/laravel53/MyOwnAPI/database/migrations/2016_09_04_082748_makers_table.php",
 		"/F/xampp/htdocs/laravel53/MyOwnAPI/MyOwnAPI.sublime-project",
@@ -154,7 +171,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -168,6 +185,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"();\n",
 			"vehicles"
 		],
 		"highlight": true,
@@ -186,7 +204,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -214,41 +232,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "database/migrations/2016_09_04_083734_vehicles_table.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								614,
-								622
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -272,11 +260,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "database/seeds/MakersTableSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -300,29 +288,117 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "database/seeds/VehiclesTableSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 562,
+						"buffer_size": 563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								553
+								275,
+								275
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/VehicleController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "database/migrations/2016_09_04_082748_makers_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								644
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -332,35 +408,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "routes/api.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								788,
-								788
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "app/Http/Controllers/MakerVehiclesController.php",
 					"semi_transient": false,
 					"settings":
@@ -386,11 +434,41 @@
 						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
+					"file": "app/Http/Controllers/MakerController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								328,
+								328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "app/Http/Controllers/MyController.php",
 					"semi_transient": false,
 					"settings":
@@ -414,11 +492,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "app/Maker.php",
 					"semi_transient": false,
 					"settings":
@@ -442,11 +520,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
 					"semi_transient": false,
 					"settings":
@@ -472,11 +550,11 @@
 						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "app/Vehicle.php",
 					"semi_transient": false,
 					"settings":
@@ -500,7 +578,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

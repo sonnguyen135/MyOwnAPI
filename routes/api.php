@@ -18,4 +18,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:api');
 Route::resource('makers','MakerController',['except'=>['create','edit']]);
 Route::resource('vehicles','VehicleController',['only'=>['create','edit','index']]);
-Route::resource('makers.vehicles','MakerVehiclesController', ['except' => ['show','edit','create']]);
+Route::resource('makers.vehicles','MakerVehiclesController');
